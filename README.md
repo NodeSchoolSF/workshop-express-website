@@ -61,7 +61,7 @@ This session will cover the following topics:
 
 ## Contributing to this project
 
-If you are interested in contributing to this project, please read our [contributing guide][contributing.md] for details.
+If you are interested in contributing to this project, please read our [contributing guide](contributing.md) for details.
 
 ## License
 
