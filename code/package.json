@@ -1,0 +1,45 @@
+{
+  "name": "express-website-demo",
+  "version": "1.0.0",
+  "description": "Code sample for the Building a Website using Express workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NodeSchoolSF/workshop-express-website.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "Web"
+  ],
+  "author": "Fernando Larrañaga <xabadu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NodeSchoolSF/workshop-express-website/issues"
+  },
+  "homepage": "https://github.com/NodeSchoolSF/workshop-express-website#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.3",
+    "prettier": "1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
